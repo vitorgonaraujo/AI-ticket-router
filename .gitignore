@@ -1,0 +1,63 @@
+# ==========================
+# Virtual Environment
+# ==========================
+.venv/
+venv/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# ==========================
+# Environment variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Test / Coverage
+# ==========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ==========================
+# Type checkers / Linters
+# ==========================
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ==========================
+# Build / Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================
+# Jupyter
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
